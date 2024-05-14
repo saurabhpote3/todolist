@@ -1,5 +1,4 @@
 body {
-    font-family: Arial, sans-serif;
     background-color: #f0f0f0;
     margin: 0;
     padding: 0;
@@ -11,7 +10,6 @@ body {
     padding: 20px;
     background-color: #fff;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
@@ -20,7 +18,7 @@ h1 {
 }
 
 .task {
-    width: calc(100% - 80px);
+    width: 90%;
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
@@ -52,4 +50,8 @@ input[type="submit"]:hover {
 
 .showTask li:last-child {
     margin-bottom: 0;
+}
+li{
+    display: flex;
+    justify-content: space-between;
 }
